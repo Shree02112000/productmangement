@@ -1,0 +1,23 @@
+{
+  "name": "productmanagement",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "shree",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-morgan-body": "^1.0.24",
+    "mongoose-paginate-v2": "^1.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19",
+    "parser": "^0.1.4",
+    "soft-delete-plugin-mongoose": "^1.0.15"
+  }
+}
